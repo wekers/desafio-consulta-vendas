@@ -1,20 +1,27 @@
 package com.devsuperior.dsmeta.dto;
 
+import com.devsuperior.dsmeta.projections.SummaryProjection;
+
 public class SaleSummaryDTO {
 
     private String sellerName;
-    private Double total;
+    private Double amount;
 
-    public SaleSummaryDTO(String sellerName, Double total) {
+    public SaleSummaryDTO(String sellerName, Double amount) {
         this.sellerName = sellerName;
-        this.total = total;
+        this.amount = amount;
+    }
+
+    public SaleSummaryDTO(SummaryProjection projection) {
+        sellerName = projection.getName();
+        amount = projection.getSalesAmount();
     }
 
     public String getSellerName() {
         return sellerName;
     }
 
-    public Double getTotal() {
-        return total;
+    public Double getAmount() {
+        return amount;
     }
 }
