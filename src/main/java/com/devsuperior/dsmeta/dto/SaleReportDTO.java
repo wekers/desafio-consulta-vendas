@@ -1,6 +1,8 @@
 package com.devsuperior.dsmeta.dto;
 
-import java.security.PrivateKey;
+import com.devsuperior.dsmeta.entities.Sale;
+import com.devsuperior.dsmeta.projections.ReportProjection;
+
 import java.time.LocalDate;
 
 public class SaleReportDTO {
@@ -16,6 +18,21 @@ public class SaleReportDTO {
         this.amount = amount;
         this.sellerName = sellerName;
     }
+
+   public SaleReportDTO(Sale entity){
+        id = entity.getId();
+        date = entity.getDate();
+        amount = entity.getAmount();
+        sellerName = entity.getSeller().getName();
+    }
+
+    public SaleReportDTO(ReportProjection projection){
+        id = projection.getId();
+        date = projection.getDate();
+        amount = projection.getAmount();
+        sellerName = projection.getName();
+    }
+
 
     public Long getId() {
         return id;
