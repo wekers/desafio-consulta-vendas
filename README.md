@@ -2,9 +2,10 @@
   DESAFIO: Consulta vendas
 
 </h1>
-- ** ++ OBS ++ : ** Na Classe `SaleService` arquivo: `SaleService.java` do pacote: `services`
+- ** OBS: ** Na Classe `SaleService` arquivo: `SaleService.java` do pacote: `services`
 tem a instrução para rodar com a opção em **JPQL** ou **SQL Nativo**
 
+---
 
 <p align="left">
   <img src="https://img.shields.io/static/v1?label=Tipo&message=Desafio&color=8257E5&labelColor=000000" alt="Desafio" />
