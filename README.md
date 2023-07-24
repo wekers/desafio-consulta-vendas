@@ -1,8 +1,9 @@
 <h1 align="center">
   DESAFIO: Consulta vendas
-
 </h1>
-- ** OBS: ** Na Classe `SaleService` arquivo: `SaleService.java` do pacote: `services`
+<br>
+
+- <ins>**OBS</ins>:** Na Classe `SaleService` arquivo: `SaleService.java` do pacote: `services`
 tem a instrução para rodar com a opção em **JPQL** ou **SQL Nativo**
 
 ---
@@ -59,7 +60,9 @@ IDE sem necessidade de qualquer configuração especial diferente daquelas das a
 #### 2) Testes manuais no Postman
 O professor já terá preparado em seu computador as seguintes requisições (link da collection Postman
 abaixo). Todas elas deverão funcionar corretamente:
-https://www.getpostman.com/collections/dea7904f994cb87c3d12
+<br>
+importe no Postman: <br>
+[https://www.getpostman.com/collections/dea7904f994cb87c3d12](https://www.getpostman.com/collections/dea7904f994cb87c3d12)
 ##### 2.1) Sumário de vendas por vendedor (teste 1)
 ``` GET /sales/summary?minDate=2022-01-01&maxDate=2022-06-30 ```
 
