@@ -2,7 +2,7 @@
   DESAFIO: Consulta vendas
 
 </h1>
-- **++OBS++:** Na Classe `SaleService` arquivo: `SaleService.java` do pacote: `services`
+- ** ++ OBS ++ : ** Na Classe `SaleService` arquivo: `SaleService.java` do pacote: `services`
 tem a instrução para rodar com a opção em **JPQL** ou **SQL Nativo**
 
 
